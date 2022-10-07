@@ -1,0 +1,130 @@
+.Chapbook {
+  flex: 4;
+  padding: 20px;
+}
+
+.ChapbookTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ChapbookAddButton {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: teal;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.ChapbookTop {
+  display: flex;
+}
+
+.ChapbookTopLeft,
+.ChapbookTopRight {
+  flex: 1;
+}
+
+.ChapbookTopRight {
+  padding: 20px;
+  margin: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.ChapbookInfoImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.ChapbookInfoTop {
+  display: flex;
+  align-items: center;
+}
+
+.ChapbookName {
+  font-weight: 600;
+}
+
+.ChapbookInfoBottom {
+  margin-top: 10px;
+}
+
+.ChapbookInfoItem {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ChapbookInfoValue {
+  font-weight: 300;
+}
+
+.ChapbookBottom {
+  padding: 20px;
+  margin: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.ChapbookForm {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ChapbookFormLeft {
+  display: flex;
+  flex-direction: column;
+}
+
+.ChapbookFormLeft > label {
+  margin-bottom: 10px;
+  color: gray;
+}
+
+.ChapbookFormLeft > input {
+  margin-bottom: 10px;
+  border: none;
+  padding: 5px;
+  border-bottom: 1px solid gray;
+}
+
+.ChapbookFormLeft >select{
+  margin-bottom: 10px;
+}
+
+.ChapbookUploadImg{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.ChapbookFormRight{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.ChapbookUpload{
+  display: flex;
+  align-items: center;
+}
+
+.ChapbookButton{
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: darkblue;
+  color:white;
+  font-weight: 600;
+  cursor: pointer;
+}
