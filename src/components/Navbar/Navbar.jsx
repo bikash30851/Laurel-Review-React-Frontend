@@ -51,6 +51,9 @@ function Navbar() {
             <Link to="/aboutus">
               <Button color="inherit">About us</Button>
             </Link>
+            <Link to="/login">
+              <Button color="inherit">Admin Login</Button>
+            </Link>
           </div>
         </Toolbar>
       </AppBar>
